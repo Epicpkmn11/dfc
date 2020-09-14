@@ -3,8 +3,12 @@
 #include <slim.h>
 #include <stdio.h>
 
+#include "version.h"
+
 int main(int argc, char **argv) {
 	consoleDemoInit();
+
+	printf("Dummy File Creator%c%*s\n\n", sizeof(VER_NUMBER) > 14 ? '\n' : ' ', sizeof(VER_NUMBER) > 14 ? 32 : 13, VER_NUMBER);
 
 	if(!fatInitDefault()) {
 		printf("fatInitDefault failed!\n");

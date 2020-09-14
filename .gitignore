@@ -6,3 +6,4 @@
 *.DS_Store
 .vscode
 *cppcheck.log
+arm9/include/version.h
