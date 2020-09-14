@@ -1,3 +1,0 @@
-[submodule "libs/libslim"]
-	path = libs/libslim
-	url = https://github.com/DS-Homebrew/libslim.git

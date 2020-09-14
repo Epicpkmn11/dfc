@@ -1,7 +1,0 @@
-*.d
-*.a
-*.o
-*.map
-*.elf
-*.nds
-examples/nds-hb-menu
